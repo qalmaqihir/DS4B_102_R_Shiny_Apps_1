@@ -1,0 +1,83 @@
+---
+title: "App Name"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+<!-- this tutorial covers the topics of  -->
+<!-- 1- orientation(rows, columns), data-width,height, vertical-layout(fill, scroll), .tabset, Page -->
+
+Page 1
+=======================================================================
+Column {data-width=650 .tabset}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+### Char A-1
+
+```{r}
+
+```
+
+
+Column {data-height=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
+### Char D
+```{r}
+
+
+```
+
+Page 2 {data-orientation=columnss}
+=======================================================================
+
+
+Column {data-height=350 .tabset .tabset-fade}
+-----------------------------------------------------------------------
+### Chart E
+```{r}
+
+```
+
+
+### Chart F
+```{r}
+
+```
+
+Column {data-height=350}
+-----------------------------------------------------------------------
+### Chart E1
+
+```{r}
+```
+
+### Chart F1
+```{r}
+
+```
+
